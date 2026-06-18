@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Catalog | Rasoi Equipments – Commercial Kitchen Equipments Lucknow</title>
+  <meta name="description" content="Browse our complete commercial kitchen equipment catalog. High quality cooking range, refrigeration, bakery, food prep, and custom SS fabrication in Lucknow." />
+  <meta name="keywords" content="kitchen equipment catalog, commercial range, vertical chiller, bakery oven, wet grinder, ss tables, lucknow" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Shared Global CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Local catalog specific styles */
+    .specs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 0.78rem;
+    }
+    .specs-table th, .specs-table td {
+      border: 1px solid var(--border);
+      padding: 6px 10px;
+      text-align: left;
+    }
+    .specs-table th {
+      background: var(--gray-light);
+      font-weight: 700;
+      color: var(--text);
+      width: 35%;
+    }
+    .product-code-badge {
+      display: inline-block;
+      background: var(--blue-dark);
+      color: var(--white);
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .toggle-specs-btn {
+      background: none;
+      border: none;
+      color: var(--blue);
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 6px 0;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 8px;
+    }
+    .toggle-specs-btn:hover {
+      color: var(--red);
+    }
+    .specs-container {
+      display: none;
+      margin-top: 8px;
+      animation: fadeDown 0.2s ease;
+    }
+    .specs-container.open {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span><i class="fas fa-phone-alt"></i> +91 8318551885, +91 8726997004</span>
+        <span><i class="fas fa-envelope"></i> info@rasoiequipments.com</span>
+        <span><i class="fas fa-clock"></i> Mon – Sat: 9:00 AM – 7:00 PM</span>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <div class="logo">
+          <img src="Logo.jpg" alt="Rasoi Equipments" />
+        </div>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active">
+            <a href="catalog.html">Products <i class="fas fa-chevron-down" style="font-size:0.65rem;"></i></a>
+            <ul class="dropdown">
+              <li><a href="catalog.html?cat=cooking">Cooking Range</a></li>
+              <li><a href="catalog.html?cat=refrigeration">Refrigeration Equipment</a></li>
+              <li><a href="catalog.html?cat=foodprep">Food Preparation</a></li>
+              <li><a href="catalog.html?cat=bakery">Bakery Equipment</a></li>
+              <li><a href="catalog.html?cat=storage">Storage & Racks</a></li>
+              <li><a href="catalog.html?cat=dishwash">Dish Washing Equipment</a></li>
+              <li><a href="catalog.html?cat=canteen">Canteen & Buffet</a></li>
+              <li><a href="catalog.html?cat=display">Display Counters</a></li>
+            </ul>
+          </li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="tel:+918318551885" class="header-phone">
+          <i class="fas fa-phone-alt"></i> Get a Free Quote
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>Our Products</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span class="separator"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i></span>
+        <span>Product Catalog</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATALOG SECTION ===== -->
+  <section class="catalog-page">
+    <div class="container">
+      
+      <!-- Catalog PDF Download Banner -->
+      <div class="download-catalog-banner fade-in">
+        <div>
+          <h3>Download Our Product Catalogs</h3>
+          <p>Get offline catalogs containing detailed photos, sizing options, and fabrication specifications.</p>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="Catalog - Rasoi Equipments.pdf" download class="btn" style="font-weight:700;"><i class="fas fa-file-pdf"></i> Complete Catalog (35 MB)</a>
+          <a href="8 Page Catalog - Product image.pdf" download class="btn" style="font-weight:700; background:rgba(255,255,255,0.15); color:#fff; border:2px solid #fff;"><i class="fas fa-file-pdf"></i> Product Image PDF (12 MB)</a>
+        </div>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="catalog-search-bar fade-in">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" placeholder="Search kitchen equipments (e.g. SBR24, tandoor, chiller, table)..." />
+      </div>
+
+      <div class="catalog-layout">
+        <!-- Sidebar Filters -->
+        <aside class="catalog-sidebar fade-in">
+          <h3>Categories</h3>
+          <button class="filter-btn active" data-filter="all">All Categories <span class="count" id="count-all">0</span></button>
+          <button class="filter-btn" data-filter="cooking">Cooking Range <span class="count" id="count-cooking">0</span></button>
+          <button class="filter-btn" data-filter="refrigeration">Refrigeration <span class="count" id="count-refrigeration">0</span></button>
+          <button class="filter-btn" data-filter="foodprep">Food Preparation <span class="count" id="count-foodprep">0</span></button>
+          <button class="filter-btn" data-filter="bakery">Bakery Equipment <span class="count" id="count-bakery">0</span></button>
+          <button class="filter-btn" data-filter="storage">Storage & Racks <span class="count" id="count-storage">0</span></button>
+          <button class="filter-btn" data-filter="display">Display Counters <span class="count" id="count-display">0</span></button>
+          <button class="filter-btn" data-filter="dishwash">Dish Washing <span class="count" id="count-dishwash">0</span></button>
+          <button class="filter-btn" data-filter="bar">Bar Equipment <span class="count" id="count-bar">0</span></button>
+        </aside>
+
+        <!-- Product Grid -->
+        <div class="catalog-main">
+          <div class="catalog-grid" id="catalogGrid">
+            <!-- Dynamic elements render here via JavaScript -->
+          </div>
+
+          <!-- Empty State -->
+          <div id="emptyState" style="display:none; text-align:center; padding:50px 0; color:var(--gray);">
+            <i class="fas fa-search" style="font-size:3rem; margin-bottom:16px;"></i>
+            <h3>No products found</h3>
+            <p>Try searching for another keyword or selecting a different category.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ENQUIRY SECTION (ID linked) ===== -->
+  <section class="enquiry-band" id="enquiry-section">
+    <div class="container enquiry-inner">
+      <div class="enquiry-text fade-in">
+        <span class="section-tag" style="background:rgba(255,255,255,0.15);color:#fff;">Enquiry Form</span>
+        <h2>Request a Customized<br/>Commercial Quote</h2>
+        <p>Choose your items, fill in this form, and our Lucknow sales team will get back to you with custom fabrication pricing and timelines.</p>
+        <br/>
+        <div class="enquiry-info-item">
+          <i class="fas fa-phone-alt"></i>
+          <span>+91 8318551885, +91 8726997004</span>
+        </div>
+        <div class="enquiry-info-item">
+          <i class="fas fa-envelope"></i>
+          <span>info@rasoiequipments.com</span>
+        </div>
+      </div>
+
+      <div class="enquiry-form-card fade-in">
+        <h3>Send Your Enquiry</h3>
+        <form class="enquiry-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name *</label>
+              <input type="text" placeholder="Full Name" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number *</label>
+              <input type="tel" placeholder="Mobile Number" required />
+            </div>
+          </div>
+          <div class="form-group" style="margin-bottom:14px;">
+            <label>Email Address</label>
+            <input type="email" placeholder="your@email.com" />
+          </div>
+          <div class="form-group" style="margin-bottom:14px;">
+            <label>Selected Category *</label>
+            <select id="enquiryCategory" required>
+              <option value="">Select a Category</option>
+              <option value="Cooking Range">Cooking Range</option>
+              <option value="Refrigeration Equipment">Refrigeration Equipment</option>
+              <option value="Bakery Equipment">Bakery Equipment</option>
+              <option value="Food Preparation">Food Preparation</option>
+              <option value="Display Counters">Display Counters</option>
+              <option value="Storage & Racks">Storage & Racks</option>
+              <option value="Dish Washing Equipment">Dish Washing Equipment</option>
+              <option value="Bar Equipment">Bar Equipment</option>
+            </select>
+          </div>
+          <div class="form-group" style="margin-bottom:18px;">
+            <label>Specifications / Message</label>
+            <textarea id="enquiryMessage" rows="3" placeholder="Specify sizes, gas/electric preferences, or product models..."></textarea>
+          </div>
+          <button type="submit" class="form-submit"><i class="fas fa-paper-plane"></i> Send Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <img src="Logo.jpg" alt="Rasoi Equipments" />
+        <p>Lucknow's trusted commercial kitchen equipment manufacturer and supplier. Premium SS equipment for restaurants, hotels, cloud kitchens & hospitals.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/918318551885" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="index.html"><i class="fas fa-chevron-right"></i> Home</a>
+          <a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a>
+          <a href="catalog.html"><i class="fas fa-chevron-right"></i> Products</a>
+          <a href="services.html"><i class="fas fa-chevron-right"></i> Services</a>
+          <a href="gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a>
+          <a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a>
+        </div>
+      </div>
+
+      <!-- Products -->
+      <div class="footer-col">
+        <h4>Our Products</h4>
+        <div class="footer-links">
+          <a href="catalog.html?cat=cooking"><i class="fas fa-chevron-right"></i> Cooking Range</a>
+          <a href="catalog.html?cat=refrigeration"><i class="fas fa-chevron-right"></i> Refrigeration</a>
+          <a href="catalog.html?cat=bakery"><i class="fas fa-chevron-right"></i> Bakery Equipment</a>
+          <a href="catalog.html?cat=foodprep"><i class="fas fa-chevron-right"></i> Food Preparation</a>
+          <a href="catalog.html?cat=display"><i class="fas fa-chevron-right"></i> Display Counters</a>
+          <a href="catalog.html?cat=storage"><i class="fas fa-chevron-right"></i> Storage & Racks</a>
+          <a href="catalog.html?cat=dishwash"><i class="fas fa-chevron-right"></i> Dish Washing</a>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <p>Lucknow, Uttar Pradesh, India</p>
+        </div>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon"><i class="fas fa-phone-alt"></i></div>
+          <a href="tel:+918318551885">+91 8318551885</a>
+        </div>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon"><i class="fas fa-envelope"></i></div>
+          <a href="mailto:info@rasoiequipments.com">info@rasoiequipments.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon"><i class="fas fa-clock"></i></div>
+          <p>Mon – Sat: 9:00 AM – 7:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 <strong>Rasoi Equipments</strong>. All Rights Reserved. | Designed for Professional Kitchens</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/918318551885" class="wa-float" aria-label="WhatsApp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Global JavaScript -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Dynamic Catalog Database and Filter Script -->
+  <script>
+    // Exact product database matching the Catalog PDF structural text
+    const products = [
+      // === COOKING RANGE ===
+      {
+        code: "SBR24 / SBR30",
+        name: "Single Burner Cooking Range",
+        category: "cooking",
+        desc: "Ideal for bulk cooking, boiling, frying and general heating. Heavy duty structural frame.",
+        image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "SBR24 / SBR30",
+          "Dimensions (inches)": "24 x 24 x 34 + 4 / 30 x 30 x 34 + 4",
+          "Pan Support Size": "16 x 16 inches",
+          "Burner Type": "High Efficiency C22 / C35 Burner",
+          "Burner Heat Load": "46,800 / 70,000 BTU/Hr",
+          "Material Grade": "AISI 304 SWG 18 standard",
+          "Structure": "MS or SS Frame options",
+          "Removable Tray": "Yes, Stainless Steel drip tray"
+        }
+      },
+      {
+        code: "TBR48 / TBR487",
+        name: "Two Burner Cooking Range",
+        category: "cooking",
+        desc: "Equipped with dual high-performance burners, individual pilot light controls, and heavy pot support.",
+        image: "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "TBR48 / TBR487",
+          "Dimensions (inches)": "48 x 24 x 34 + 4 / 48 x 27 x 34 + 4",
+          "Pan Support Size": "14 x 14 inches",
+          "Burners": "2 x C22 or T22 Burners",
+          "Burner Output": "46,800 to 70,000 BTU/Hr each",
+          "Control": "Individual pilot and control valves",
+          "Material": "AISI 304 food-grade stainless steel"
+        }
+      },
+      {
+        code: "CR48 / CR60 / CR66",
+        name: "Three Burner Cooking Range",
+        category: "cooking",
+        desc: "Three high-performance burners designed for high-capacity hotel and restaurant kitchens.",
+        image: "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "CR48 / CR60 / CR66",
+          "Dimensions (inches)": "60 x 24 x 34 + 4 / 60 x 27 x 34 + 4 / 36 x 30 x 34 + 4",
+          "Pan Support Size": "14 x 14 inches",
+          "Burner Options": "C22 / T22 High efficiency burners",
+          "Burner Output": "46,800 / 40,000 BTU/Hr",
+          "Drip Tray": "SS removable sheet",
+          "Material": "AISI 304 SWG 18 Standard"
+        }
+      },
+      {
+        code: "Chinese Cooking Range",
+        name: "Chinese Cooking Range",
+        category: "cooking",
+        desc: "Designed for high heat stir-frying. Heavy cast iron dome wok support, rear splash back with water tap controls.",
+        image: "https://images.unsplash.com/photo-1588854337236-6889d631faa8?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "Chinese Range (2 Wok + 1 Utility)",
+          "Dimensions (inches)": "66 x 27 x 34 + 4",
+          "Pan Size (Diameter)": "15.5 inches / 14 inches",
+          "Burner Spec": "T22 (40,000 BTU/Hr) / T35 (70,000 BTU/Hr)",
+          "Splash Back": "Included with rear water inlet tap",
+          "Water Drainage": "Built-in channel & drain waste box"
+        }
+      },
+      {
+        code: "TN27 / TN30",
+        name: "Stainless Steel Gas Tandoor",
+        category: "cooking",
+        desc: "Square SS outer body with double insulation enclosing an imported heavy-duty clay tandoor pot.",
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "TN27 / TN30",
+          "Dimensions (inches)": "27 x 27 x 34 / 30 x 30 x 34",
+          "Clay Pot Thickness": "60 MM heavy clay",
+          "Insulation": "30 MM High density Glass Wool",
+          "Fuel Option": "LPG / PNG / Coal / Charcoal",
+          "Mobility": "Heavy duty castor wheels with brakes",
+          "Outer Body": "SS 304 SWG 18 sheets"
+        }
+      },
+      {
+        code: "GP27 / GP36",
+        name: "Commercial Griddle / Dosa Plate",
+        category: "cooking",
+        desc: "Ideal for making dosas, chapatis, burgers, and frying eggs. Heavy MS plate ensures uniform heat.",
+        image: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "GP27 / GP36",
+          "Dimensions (inches)": "27 x 27 x 34 + 4 / 36 x 24 x 34 + 4",
+          "Plate Material": "Polished Mild Steel (MS)",
+          "Plate Thickness": "15 MM thick plate",
+          "Grease Collector": "SS oil collection draw drawer",
+          "Structure": "SS outer casing & framing"
+        }
+      },
+      {
+        code: "BC100 / BC150",
+        name: "Tilting Type Bulk Cooker",
+        category: "cooking",
+        desc: "Jacketed boiling vessel for bulk preparation of rice, pulses, and vegetables. Smooth manual tilting wheel.",
+        image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "BC100 / BC150",
+          "Capacity": "100 Liters / 150 Liters",
+          "Burner Spec": "C65 / C35 Heavy duty burners",
+          "Burner Output": "74,500 BTU/Hr (2.2 Kg/Hr)",
+          "Vessel Material": "SS 304 SWG 16 (Food Grade)",
+          "Valves": "Heavy DRP valves as standard",
+          "Application": "Industrial & school canteens, military barracks"
+        }
+      },
+      {
+        code: "BP100 / BP150",
+        name: "Tilting Type Brat Pan",
+        category: "cooking",
+        desc: "Versatile bulk frying pan. Manual tilting system for bulk gravy cooking, shallow frying, and stir mixing.",
+        image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "BP100 / BP150",
+          "Capacity": "100 Liters / 150 Liters",
+          "Heating Output": "74,500 BTU/Hr (1.5 Kg/Hr)",
+          "Brat Pan Base": "Polished MS / SS thick bottom plate",
+          "Outer Body": "Stainless Steel AISI 304",
+          "Lid": "Balanced hinged cover lid"
+        }
+      },
+      {
+        code: "CP42 / CP48",
+        name: "Chapati Plate with Puffer",
+        category: "cooking",
+        desc: "Polished mild steel top plate with separate puffing grid side. Designed for mass chapati preparation.",
+        image: "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "CP42 / CP48",
+          "Dimensions (inches)": "42 x 24 x 34 + 4 / 48 x 24 x 34 + 4",
+          "Cooktop Material": "Polished MS plate (15 MM)",
+          "Burner Spec": "V 600 / T35 high efficiency burners",
+          "Gas consumption": "1.5 Kg/Hr",
+          "Puffer Grid": "LPG Gas grid on the side"
+        }
+      },
+
+      // === REFRIGERATION ===
+      {
+        code: "Upright Chiller & Freezer",
+        name: "Vertical Chiller & Freezer",
+        category: "refrigeration",
+        desc: "High capacity storage with dynamic ventilated cooling. Heavy duty castor wheels, dynamic defrost, SS construction.",
+        image: "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=400&h=250&fit=crop",
+        specs: {
+          "Dimensions (mm)": "700 x 800 x 2050 (Single) / 1200 x 800 x 2050 (Double) / 1400 x 800 x 2050",
+          "Capacity": "500 Liters / 1000 Liters / 1350 Liters",
+          "Material": "SS 304 food grade standard interior & exterior",
+          "PUF Insulation": "60 mm to 120 mm thickness",
+          "Cooling system": "Dynamic Ventilated Cooling for uniform temp",
+          "Thermostat": "Digital thermostat temperature readouts",
+          "Condenser": "Tropicalized design at 43°C ambient temp"
+        }
+      },
+      {
+        code: "Saladette Table",
+        name: "Saladette / Under-Counter Chiller",
+        category: "refrigeration",
+        desc: "Combines refrigerated undercounter cabinet storage with top salad preparation pans. Dynamic cooling.",
+        image: "https://images.unsplash.com/photo-1571173068085-84a97f3f3cfe?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "Saladette Counter / Undercounter",
+          "Dimensions (mm)": "1200x750x850+150 / 1500x750x850+150 / 1800x750x850+150",
+          "Top GN Pan Configuration": "Fits 6 to 9 GN 1/6 size pans",
+          "Shelves": "2 rows adjustable steel shelves",
+          "Coils": "IGT copper coils for precise evaporation",
+          "Gasket": "Magnetic removable gasket with retainer"
+        }
+      },
+      {
+        code: "WC64 / WC80 / WC100 / WC150",
+        name: "Commercial Cold Room",
+        category: "refrigeration",
+        desc: "Modular cold rooms for bulk preservation. PUF panels with Camlock mechanisms, digital controller.",
+        image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "WC64 / WC80 / WC100 / WC150",
+          "Dimensions (Ft.)": "8x8x8 / 10x8x8 / 10x10x8 / 10x15x8",
+          "Panel thickness": "60 to 120 mm PUF panel insulation",
+          "Cooling Capacity": "10,000 / 15,000 BTUH",
+          "Compressor": "Copeland/Emerson condensing unit",
+          "Coil type": "IGT copper pipe coils"
+        }
+      },
+      {
+        code: "BC100SD / BC200SD / BC300SD",
+        name: "Blast Chiller & Freezer",
+        category: "refrigeration",
+        desc: "Rapid cooling system to preserve cell structure and freshness of raw/cooked foods.",
+        image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "BC100SD / BC200SD / BC300SD",
+          "Capacity": "10 GN / 14 GN / 16 GN pans",
+          "Dimensions (mm)": "800x800x1800 / 800x1000x2050 / 800x1000x2200",
+          "Temp range": "+90°C to -18°C in 240 mins",
+          "Internal Build": "Stainless Steel 304 grade"
+        }
+      },
+      {
+        code: "CF205 / CF320 / CF500",
+        name: "Chest Freezer & Visi Cooler",
+        category: "refrigeration",
+        desc: "Hard-top chest freezers and glass door visi coolers for display and retail.",
+        image: "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=400&h=250&fit=crop",
+        specs: {
+          "Capacity (Liters)": "205 L / 320 L / 405 L / 500 L / 600 L",
+          "Visi Cooler Models": "VC 220 SD GT / VC 320 SD GT / VC 450 SD GT",
+          "Dimensions": "850x665x850 / 1200x665x850 / 1680x665x850 mm",
+          "Door type": "Glass door display (Visi) or Solid Lift Top (Chest)",
+          "Compressor": "Tropicalized low noise compressor"
+        }
+      },
+
+      // === FOOD PREP ===
+      {
+        code: "SV05 / SV07",
+        name: "Heavy Duty Pulverizer",
+        category: "foodprep",
+        desc: "Dry/wet grinding pulverizer for spices, gravy paste, dal batter, and grains. High speed motor.",
+        image: "https://images.unsplash.com/photo-1588854337236-6889d631faa8?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "SV05 / SV07",
+          "Dimensions (inches)": "12 x 9 x 26 / 12 x 12 x 31",
+          "Capacity": "5 Liters / 7 Liters per batch",
+          "Material": "Aluminium Alloy chamber, Stainless Steel outer casing",
+          "Blades": "Imported high hardness steel blades",
+          "Power": "750 W / 1100 W heavy-duty motor"
+        }
+      },
+      {
+        code: "Sausage Stuffer",
+        name: "Automatic Sausage Stuffer",
+        category: "foodprep",
+        desc: "Fully automatic hydraulic sausage stuffer. Stainless steel cylinders.",
+        image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "Sausage Stuffer 15 / 20",
+          "Capacity": "15 Liters / 20 Liters",
+          "Dimensions (mm)": "605 x 462 x 500 / 770 x 710 x 960",
+          "Wattage": "1100 W electric motor",
+          "Funnels": "Includes 16 / 22 / 32 / 38 mm funnels"
+        }
+      },
+      {
+        code: "PP100",
+        name: "Potato Peeler",
+        category: "foodprep",
+        desc: "Fast bulk peeling. Inner drum lined with abrasive silicon carbide grit. Water supply tap.",
+        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "Potato Peeler PP100",
+          "Capacity": "10 Kg / 15 Kg batch capacity",
+          "Dimensions (mm)": "750 x 350 x 500 mm",
+          "Power": "550 W / 750 W motor",
+          "Drum Material": "AISI 304 Stainless steel construction"
+        }
+      },
+      {
+        code: "VC5",
+        name: "Commercial Vegetable Cutter",
+        category: "foodprep",
+        desc: "Includes multiple discs for slicing, dicing, grating, shredding, and cutting julienne shapes.",
+        image: "https://images.unsplash.com/photo-1612833604776-68d7fad1c7eb?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "Vegetable Cutter VC5",
+          "Blades": "8 Interchangeable SS blade discs",
+          "Capacity": "Up to 150 Kg per hour output",
+          "Feed Hoppers": "Dual feed ports (round and crescent)",
+          "Material": "Cast Aluminium & SS alloy frame"
+        }
+      },
+
+      // === BAKERY EQUIPMENT ===
+      {
+        code: "GBO11 / GBO12 / GBO24 / GBO36",
+        name: "Gas Baking Deck Oven",
+        category: "bakery",
+        desc: "Gas-fired deck ovens with digital heat controller. Separate top & bottom gas combustion systems.",
+        image: "https://images.unsplash.com/photo-1612833604776-68d7fad1c7eb?w=400&h=250&fit=crop",
+        specs: {
+          "Chamber Deck option": "1 Deck 1 Tray / 1 Deck 2 Tray / 2 Deck 4 Tray / 3 Deck 6 Tray",
+          "Dimensions (mm)": "960x600x500 / 1300x890x630 / 1300x890x1410 / 1300x840x1720",
+          "Chamber Size (mm)": "650x420x220 / 870x650x230",
+          "Tray Size (mm)": "400 x 600 x 30 mm",
+          "Power consumption": "0.10 KW to 0.30 KW (electric digital panel control)",
+          "Temp range": "0 to 400°C maximum temperature",
+          "Outer casing": "AISI 304 stainless steel front panel"
+        }
+      },
+      {
+        code: "H20 / H30 / H50",
+        name: "Commercial Spiral Mixer",
+        category: "bakery",
+        desc: "Dual speed spiral dough mixer. Synchronized bowl and hook rotation for high quality dough.",
+        image: "https://images.unsplash.com/photo-1588854337236-6889d631faa8?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "H20 / H30 / H50",
+          "Bowl Capacity": "20 Liters / 30 Liters / 50 Liters",
+          "Kneading Capacity": "8 Kg / 12 Kg / 20 Kg dry flour",
+          "Motor Power": "1250 W / 2000 W / 2500 W",
+          "Safety Guard": "Wire mesh safety grill, interlocking shut-off",
+          "Speeds": "Dual speeds for mixing and kneading"
+        }
+      },
+      {
+        code: "B7 / B10 / B20 / B30 / B40",
+        name: "Planetary Cake Mixer",
+        category: "bakery",
+        desc: "Includes three attachments: whisk, flat beater, and dough hook. Ideal for mixing eggs, creams, and light batters.",
+        image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "B7 / B10 / B20 / B30 / B40",
+          "Bowl Capacity": "7L / 10L / 20L / 30L / 40L",
+          "Wattage": "500 W / 800 W / 1100 W / 1500 W",
+          "Gear Speed": "3 adjustable gear speeds",
+          "Attachments": "Whisk, flat beater, dough hook"
+        }
+      },
+      {
+        code: "BS760SS / BS760HS",
+        name: "Heavy Duty Bread Slicer",
+        category: "bakery",
+        desc: "High speed steel slicer blades, uniform spacing. Gravity feed slide.",
+        image: "https://images.unsplash.com/photo-1612833604776-68d7fad1c7eb?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "BS760SS / BS760HS",
+          "Slice Capacity": "Up to 31 slices per loaf",
+          "Slice Thickness": "12 MM spacing standard",
+          "Motor": "370 W electric motor",
+          "Guides": "SS guide bars, gravity chute slide"
+        }
+      },
+      {
+        code: "TT150 / TT300",
+        name: "Conveyor Belt Toaster",
+        category: "bakery",
+        desc: "Continuous conveyor toaster for buffet lines and hotels. Adjustable speed.",
+        image: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "TT 150 / TT 300",
+          "Dimensions (mm)": "290 x 420 x 390 / 370 x 420 x 390",
+          "Toasting Capacity": "150 slices / 300 slices per hour",
+          "Power": "1300 W / 1900 W electric elements",
+          "Controls": "Speed control belt & browning knob"
+        }
+      },
+
+      // === STORAGE & RACKS ===
+      {
+        code: "WT24 to WT48",
+        name: "SS Heavy Duty Work Table",
+        category: "storage",
+        desc: "Standard kitchen worktable reinforced with sound-dampened boards underneath the steel surface.",
+        image: "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=400&h=250&fit=crop",
+        specs: {
+          "Dimensions (inches)": "24x24x34+4 / 30x24x34+4 / 36x24x34+4 / 42x24x34+4 / 48x24x34+4",
+          "Tabletop sheet": "SS 304 food grade / SS 202 option",
+          "Sheet Thickness": "SWG 18 (1.2 MM) or SWG 20 (1.0 MM)",
+          "Legs": "SS round pipes (1.5 inch dia) with nylon bullet feet",
+          "Undershelf": "Included, SS sheet with reinforcement hats"
+        }
+      },
+      {
+        code: "WTH48 / WTH60 / WTH66",
+        name: "Work Table with Overhead Shelf",
+        category: "storage",
+        desc: "Worktable base fitted with 2-tier overhead shelf structure for sorting spices and prep bowls.",
+        image: "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "WTH48 / WTH60 / WTH66",
+          "Dimensions (inches)": "48 x 24 x 34 + 12 + 12 / 60 x 24 x 34 + 12 + 12 / 66 x 24 x 34 + 12 + 12",
+          "Overhead structure": "2 Tier SS shelves",
+          "Sheet Thickness": "SWG 18 sheet grade",
+          "Feet": "Nylon bullet feet adjustable"
+        }
+      },
+      {
+        code: "RC36 / RC42 / RC48",
+        name: "4-Tier Stainless Steel Storage Rack",
+        category: "storage",
+        desc: "Open shelving storage racks for dry ingredients, cooking vessels, and pans.",
+        image: "https://images.unsplash.com/photo-1571173068085-84a97f3f3cfe?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "RC36 / RC42 / RC48",
+          "Dimensions (inches)": "36 x 18 x 72 / 42 x 18 x 72 / 48 x 18 x 72",
+          "Shelves": "4 adjustable solid SS shelves",
+          "Post Framing": "Heavy duty SS angle/pipe posts",
+          "Feet": "Nylon adjustable bullet feet"
+        }
+      },
+      {
+        code: "TR24",
+        name: "Bakery Tray Trolley / Rack",
+        category: "storage",
+        desc: "Vertical rack for cooling baked loaves and holding baking sheet trays. Castor wheel mobility.",
+        image: "https://images.unsplash.com/photo-1612833604776-68d7fad1c7eb?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "TR24 Tray Trolley",
+          "Dimensions (inches)": "24 x 18 x 60 / 24 x 18 x 72",
+          "GN Pan size Compatibility": "2/1 GN Pans or Bakery Trays (400 x 600 mm)",
+          "Tray capacity": "12 Decks / levels",
+          "Mobility": "4 Heavy-duty wheels (2 with locks)"
+        }
+      },
+      {
+        code: "MT24 / MT30",
+        name: "SS Masala Trolley",
+        category: "storage",
+        desc: "Includes 9 GN pans. Fitted with wheels to easily slide underneath worktables for quick cooking access.",
+        image: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "MT24 / MT30",
+          "Dimensions (inches)": "24 x 24 x 34 / 30 x 24 x 34",
+          "Containers": "9 GN 1/9 size steel containers included",
+          "Frame": "Heavy SS square tube frame",
+          "Wheels": "4 castor wheels"
+        }
+      },
+      {
+        code: "PB30 / PB36",
+        name: "Potato & Ingredient Bin",
+        category: "storage",
+        desc: "Mobile bin with sloped slide open top for bulk dry ingredients, potato, or onion storage.",
+        image: "https://images.unsplash.com/photo-1571173068085-84a97f3f3cfe?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "PB30 / PB36",
+          "Dimensions (inches)": "30 x 24 x 34 / 36 x 30 x 34",
+          "Capacity": "50 Kg / 80 Kg capacity",
+          "Frame / Construction": "AISI 304 food-grade stainless steel",
+          "Mobility": "Castor wheels for easy shifting"
+        }
+      },
+      {
+        code: "Garbage Chute Table",
+        name: "Garbage Chute Table",
+        category: "storage",
+        desc: "SS table with integrated circular trash disposal hole leading directly to a bin underneath.",
+        image: "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "GCT42 / GCT48 / GCT60",
+          "Dimensions (inches)": "60 x 24 x 34 + 4",
+          "Trash Chute": "8-inch diameter circular chute opening",
+          "Grade/Thickness": "AISI 304 SWG 18",
+          "Reinforcement": "Sound-absorbing panel beneath"
+        }
+      },
+      {
+        code: "FWT30 / FWT48",
+        name: "Food Warmer Trolley",
+        category: "storage",
+        desc: "Insulated double-walled cabinet fitted with heating elements and dynamic water pan for steam warming.",
+        image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "FWT30 / FWT48",
+          "Dimensions (inches)": "48 x 30 x 34",
+          "GN Pan size": "1/1 GN large capacity pans",
+          "Insulation": "Glass wool double wall insulation",
+          "Mobility": "Castor push handle, heavy wheels"
+        }
+      },
+
+      // === DISPLAY COUNTERS ===
+      {
+        code: "SD1200 / SD1500 / SD1800",
+        name: "Sweet Display Counter (Static)",
+        category: "display",
+        desc: "Curved front display counter with static cooling coils underneath shelves. LED lit interior.",
+        image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "SD1200 / SD1500 / SD1800",
+          "Dimensions (mm)": "1200 x 750 x 850 + 150 / 1500 x 750 x 850 + 150 / 1800 x 750 x 850 + 150",
+          "Cooling type": "Static refrigeration cooling system",
+          "Shelves": "3 Glass Shelves + 1 SS Base shelf",
+          "Glass front": "Tougnened curved front glass sheet",
+          "Lighting": "Under-shelf LED strip lights"
+        }
+      },
+      {
+        code: "FDVC12 / FDVC15",
+        name: "Cake & Pastry Counter (Ventilated)",
+        category: "display",
+        desc: "Force-draft ventilated counter. Uniform cold air flow preventing fogging on curved display glass.",
+        image: "https://images.unsplash.com/photo-1612833604776-68d7fad1c7eb?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "FDVC12 / FDVC15",
+          "Dimensions (mm)": "1200 x 700 x 1300 / 1500 x 700 x 1300",
+          "Cooling type": "Ventilated Force-draft uniform airflow",
+          "Operating Temperature": "2°C to 8°C cold range",
+          "No. of Shelves": "3 rows adjustable glass racks + base",
+          "Controller": "Digital temp readouts & control panel"
+        }
+      },
+
+      // === DISH WASHING ===
+      {
+        code: "500 ECO Dishwasher",
+        name: "Hood Type Commercial Dishwasher",
+        category: "dishwash",
+        desc: "Fast commercial dish washing cycle. Sanity high temperature rinse cycle. Automatic chemical feeders.",
+        image: "https://images.unsplash.com/photo-1542013936693-8848e574047a?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "500 ECO Hood Type",
+          "Dimensions (mm)": "620 x 750 x 1500",
+          "Washing Capacity": "60 Racks per hour",
+          "Wash Programs": "4 cycles (90/120/180 secs and manual)",
+          "Electrical Load": "7.2 kW electric boiler elements",
+          "Tank Capacity": "25 Liters boiler tank, 45 Liters wash tank"
+        }
+      },
+      {
+        code: "SU24 / SU36 / SU48 / SU66",
+        name: "Stainless Steel Sink Unit",
+        category: "dishwash",
+        desc: "Heavy duty commercial sink unit. Single, double, or triple sink bowl configuration as per washing needs.",
+        image: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=400&h=250&fit=crop",
+        specs: {
+          "Model": "SU24 / SU36 / SU48 / SU66",
+          "Dimensions (inches)": "36x18x72 / 42x18x72 / 48x18x72 / 66x24x34+4",
+          "Bowl Depth": "300 MM (12 inches) deep bowls",
+          "Bowl Thickness": "1.2 MM / 1.4 MM sheet",
+          "Splash Back": "Included, 100 MM wall guard",
+          "Structure": "AISI 304 food-grade stainless steel"
+        }
+      }
+    ];
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('searchInput');
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const catalogGrid = document.getElementById('catalogGrid');
+      const emptyState = document.getElementById('emptyState');
+      
+      // Function to render products
+      function renderProducts() {
+        catalogGrid.innerHTML = '';
+        const query = searchInput.value.toLowerCase().trim();
+        const activeFilterBtn = document.querySelector('.filter-btn.active');
+        const activeCategory = activeFilterBtn.getAttribute('data-filter');
+        
+        let visibleCount = 0;
+        
+        products.forEach(p => {
+          const matchesSearch = p.name.toLowerCase().includes(query) || 
+                                p.desc.toLowerCase().includes(query) || 
+                                p.code.toLowerCase().includes(query);
+          const matchesCategory = activeCategory === 'all' || p.category === activeCategory;
+          
+          if (matchesSearch && matchesCategory) {
+            visibleCount++;
+            
+            // Build specs table HTML
+            let specsHtml = '';
+            for (const key in p.specs) {
+              specsHtml += `
+                <tr>
+                  <th>${key}</th>
+                  <td>${p.specs[key]}</td>
+                </tr>
+              `;
+            }
+            
+            // Product card template
+            const card = document.createElement('div');
+            card.className = 'product-card catalog-item-card fade-in visible';
+            card.setAttribute('data-category', p.category);
+            card.innerHTML = `
+              <div class="product-img-wrap">
+                <img src="${p.image}" alt="${p.name}" />
+                <div class="product-badge">${p.code.split(" / ")[0]}</div>
+              </div>
+              <div class="product-body">
+                <div class="product-cat">${p.category.toUpperCase()}</div>
+                <h3 class="product-name">${p.name}</h3>
+                <span class="product-code-badge">Model: ${p.code}</span>
+                <p class="product-desc">${p.desc}</p>
+                
+                <button class="toggle-specs-btn" onclick="toggleSpecs(this)">
+                  <i class="fas fa-cog"></i> View Technical Specs <i class="fas fa-chevron-down" style="font-size:0.65rem;"></i>
+                </button>
+                
+                <div class="specs-container">
+                  <table class="specs-table">
+                    <tbody>
+                      ${specsHtml}
+                    </tbody>
+                  </table>
+                </div>
+                
+                <div style="display:flex;gap:10px;margin-top:14px;">
+                  <button class="btn btn-red whatsapp-enquiry-btn" style="flex:1;padding:8px;font-size:0.8rem;" onclick="sendWhatsApp('${p.name}', '${p.code}')"><i class="fab fa-whatsapp"></i> WhatsApp</button>
+                  <a href="#enquiry-section" class="btn btn-outline get-quote-btn" style="flex:1;padding:8px;font-size:0.8rem;text-align:center;justify-content:center;" onclick="prefillForm('${p.name}', '${p.category}')">Get Quote</a>
+                </div>
+              </div>
+            `;
+            catalogGrid.appendChild(card);
+          }
+        });
+        
+        emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+        updateSidebarCounts();
+      }
+
+      // Sidebar Category Counts Update
+      function updateSidebarCounts() {
+        const query = searchInput.value.toLowerCase().trim();
+        let totalCount = 0;
+        const counts = {
+          cooking: 0,
+          refrigeration: 0,
+          foodprep: 0,
+          bakery: 0,
+          storage: 0,
+          display: 0,
+          dishwash: 0,
+          bar: 0
+        };
+        
+        products.forEach(p => {
+          const matchesSearch = p.name.toLowerCase().includes(query) || 
+                                p.desc.toLowerCase().includes(query) || 
+                                p.code.toLowerCase().includes(query);
+          if (matchesSearch) {
+            totalCount++;
+            if (counts[p.category] !== undefined) {
+              counts[p.category]++;
+            }
+          }
+        });
+        
+        document.getElementById('count-all').textContent = totalCount;
+        for (const cat in counts) {
+          const el = document.getElementById(`count-${cat}`);
+          if (el) el.textContent = counts[cat];
+        }
+      }
+
+      // Hook up sidebar category filter clicks
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderProducts();
+        });
+      });
+
+      // Hook up search input typing
+      searchInput.addEventListener('input', renderProducts);
+
+      // Handle category redirection parameter
+      const urlParams = new URLSearchParams(window.location.search);
+      const catParam = urlParams.get('cat');
+      if (catParam) {
+        const targetBtn = document.querySelector(`.filter-btn[data-filter="${catParam}"]`);
+        if (targetBtn) {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          targetBtn.classList.add('active');
+        }
+      }
+
+      // Initial Render
+      renderProducts();
+    });
+
+    // Global Functions for Dynamic buttons
+    function toggleSpecs(btn) {
+      const container = btn.nextElementSibling;
+      container.classList.toggle('open');
+      const icon = btn.querySelector('i.fa-chevron-down, i.fa-chevron-up');
+      if (icon) {
+        icon.classList.toggle('fa-chevron-down');
+        icon.classList.toggle('fa-chevron-up');
+      }
+    }
+
+    function sendWhatsApp(prodName, prodCode) {
+      const waNumber = '918318551885'; // Lucknow primary contact number
+      const text = `Hi Rasoi Equipments,\n\nI am viewing your product catalog and I am interested in:\n*${prodName}* (Model: *${prodCode}*).\n\nPlease share price quote, delivery charges, and specifications.\n\nThank you!`;
+      const encoded = encodeURIComponent(text);
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      const url = isMobile 
+        ? `https://api.whatsapp.com/send?phone=${waNumber}&text=${encoded}` 
+        : `https://web.whatsapp.com/send?phone=${waNumber}&text=${encoded}`;
+      window.open(url, '_blank');
+    }
+
+    function prefillForm(prodName, category) {
+      const enquiryCategory = document.getElementById('enquiryCategory');
+      const enquiryMessage = document.getElementById('enquiryMessage');
+      
+      if (enquiryCategory) {
+        // Match selection option
+        let optionIndex = 0;
+        if (category === 'cooking') optionIndex = 1;
+        else if (category === 'refrigeration') optionIndex = 2;
+        else if (category === 'bakery') optionIndex = 3;
+        else if (category === 'foodprep') optionIndex = 4;
+        else if (category === 'display') optionIndex = 5;
+        else if (category === 'storage') optionIndex = 6;
+        else if (category === 'dishwash') optionIndex = 7;
+        else if (category === 'bar') optionIndex = 8;
+        
+        enquiryCategory.selectedIndex = optionIndex;
+      }
+      if (enquiryMessage) {
+        enquiryMessage.value = `I would like to request a price quotation for: ${prodName}. Please specify availability, fabrication dimensions, and warranty.`;
+      }
+    }
+  </script>
+
+</body>
+</html>
